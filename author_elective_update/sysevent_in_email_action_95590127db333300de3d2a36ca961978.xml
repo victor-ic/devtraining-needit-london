@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="DELETE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Phishing Simulation</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+	// Implement email action here
+
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-16 03:41:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95590127db333300de3d2a36ca961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phishing Simulation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_in_email_action_95590127db333300de3d2a36ca961978</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-16 03:41:23</sys_updated_on>
+        <table>incident</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>f3a33934db4577049df22f17d4961979</instance_id>
+        <instance_name>dev83107</instance_name>
+        <name>sysevent_in_email_action_95590127db333300de3d2a36ca961978</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_in_email_action"&gt;&lt;sysevent_in_email_action action="INSERT_OR_UPDATE"&gt;&lt;action&gt;record_action&lt;/action&gt;&lt;active&gt;true&lt;/active&gt;&lt;assignment_operator/&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;email.read&lt;/event_name&gt;&lt;filter_condition/&gt;&lt;from/&gt;&lt;name&gt;Phishing Simulation&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;reply_email/&gt;&lt;required_roles/&gt;&lt;script&gt;&lt;![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+	// Implement email action here
+
+})(current, event, email, logger, classifier);]]&gt;&lt;/script&gt;&lt;stop_processing&gt;false&lt;/stop_processing&gt;&lt;sys_class_name&gt;sysevent_in_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-16 03:41:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;95590127db333300de3d2a36ca961978&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Phishing Simulation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_in_email_action_95590127db333300de3d2a36ca961978&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-16 03:41:23&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;template/&gt;&lt;type&gt;new&lt;/type&gt;&lt;/sysevent_in_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-698698620</payload_hash>
+        <record_name>Phishing Simulation</record_name>
+        <reverted_from/>
+        <source>1c0aed9edbb33300de3d2a36ca9619dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-16 03:41:23</sys_created_on>
+        <sys_id>bb525da3db333300de3d2a36ca961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d382924e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-16 03:41:23</sys_updated_on>
+        <type>Inbound Email Actions</type>
+        <update_guid>b3525da330333300d323352989cfc006</update_guid>
+        <update_guid_history>b3525da330333300d323352989cfc006:-698698620</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-16 05:53:34</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_in_email_action">sysevent_in_email_action</sys_db_object>
+        <sys_id>6740208edf5c45d4a07389bdb2a5fa81</sys_id>
+        <sys_metadata>95590127db333300de3d2a36ca961978</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phishing Simulation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">2f53a6427de13300aadb74564bf59f21</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_in_email_action_95590127db333300de3d2a36ca961978</sys_update_name>
+        <sys_update_version display_value="sysevent_in_email_action_95590127db333300de3d2a36ca961978">bb525da3db333300de3d2a36ca961906</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-16 05:53:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
